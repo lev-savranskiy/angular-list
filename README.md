@@ -5,6 +5,7 @@ Features
 * App uses components only
 * App is built using Bootstrap
 * App is responsive
+* Loading indication
 * Live search bar
 * Search query highlighted
 
