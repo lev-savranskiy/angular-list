@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-sm-6">
+    <strong>Name:</strong>    <span ng-bind-html="$ctrl.post.name | highlight:$ctrl.query | trustHtml"></span>
+  </div>
+  <div class="col-sm-6">
+    <strong>Email:</strong>  <span ng-bind-html="$ctrl.post.email | highlight:$ctrl.query | trustHtml"></span>
+  </div>
+  <div class="col-sm-12">
+    <strong>Title:</strong>  <span ng-bind-html="$ctrl.post.title | highlight:$ctrl.query | trustHtml"></span>
+  </div>
+  <div class="col-sm-12">
+    <strong>Body:</strong> <span ng-bind-html="$ctrl.post.body | highlight:$ctrl.query | trustHtml"></span>
+  </div>
+</div>
+
